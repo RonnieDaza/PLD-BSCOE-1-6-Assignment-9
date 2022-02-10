@@ -11,7 +11,7 @@ import json
 from fpdf import FPDF
 
 # 2. Open the JSON file.
-openJsonFile = open("My Resume.json")
+openJsonFile = open("My Resume in JSON File.json")
 # 3. Read the JSON file and convert the JSON String document into the Python dictionary.
 readJsonFile = json.loads(openJsonFile.read())
 
@@ -47,3 +47,11 @@ pdf.multi_cell(190, 7, txt = readJsonFile["myFirstReference"]["personOne"], ln =
 pdf.multi_cell(190, 7, txt = readJsonFile["mySecondReference"]["blankFour"], ln = True)
 pdf.multi_cell(190, 7, txt = readJsonFile["mySecondReference"]["statementTwo"], ln = True)
 pdf.multi_cell(190, 7, txt = readJsonFile["mySecondReference"]["personTwo"], ln = True)
+
+# myFirstWorkExperience
+pdf.multi_cell(190, 7, txt = readJsonFile["myFirstWorkExperience"]["blankFive"], ln = True)
+pdf.multi_cell(190, 7, txt = readJsonFile["myFirstWorkExperience"]["sectionFour"], ln = True)
+pdf.multi_cell(190, 7, txt = readJsonFile["myFirstWorkExperience"]["companyOne"], ln = True)
+pdf.multi_cell(190, 7, txt = readJsonFile["myFirstWorkExperience"]["positionOne"], ln = True)
+pdf.multi_cell(190, 7, txt = readJsonFile["myFirstWorkExperience"]["startDateOne"], ln = True)
+pdf.multi_cell(190, 7, txt = readJsonFile["myFirstWorkExperience"]["endDateOne"], ln = True)
