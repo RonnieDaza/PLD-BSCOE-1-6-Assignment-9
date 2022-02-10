@@ -29,3 +29,10 @@ pdf.multi_cell(190, 7, txt = readJsonFile["myInfo"]["myPosition"], ln = True)
 pdf.multi_cell(190, 7, txt = readJsonFile["myInfo"]["myBio"], ln = True)
 pdf.multi_cell(190, 7, txt = readJsonFile["myInfo"]["myEmail"], ln = True)
 pdf.multi_cell(190, 7, txt = readJsonFile["myInfo"]["myLocation"], ln = True)
+
+# myAcademicBackground
+pdf.multi_cell(190, 7, txt = readJsonFile["myAcademicBackground"]["blankTwo"], ln = True)
+pdf.multi_cell(190, 7, txt = readJsonFile["myAcademicBackground"]["sectionTwo"], ln = True)
+pdf.multi_cell(190, 7, txt = readJsonFile["myAcademicBackground"]["myUniversity"], ln = True)
+pdf.multi_cell(190, 7, txt = readJsonFile["myAcademicBackground"]["myDegree"], ln = True)
+pdf.multi_cell(190, 7, txt = readJsonFile["myAcademicBackground"]["theYears"], ln = True)
