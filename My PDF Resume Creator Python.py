@@ -13,3 +13,6 @@ from fpdf import FPDF
 openJsonFile = open("My Resume.json")
 # 3. Read the JSON file and convert the JSON String document into the Python dictionary.
 readJsonFile = json.loads(openJsonFile.read())
+
+# 4. Create the FPDF object.
+pdf = FPDF()
