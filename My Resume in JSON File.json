@@ -13,3 +13,9 @@
             "myDegree": "Degree: Bachelor of Science in Computer Science",
             "theYears": "Year Graduated: 2015"
         },
+    "myFirstReference": {
+            "blankThree": " ",
+            "sectionThree": "Reference:",
+            "statementOne": "'I highly recommend Ronnie because he is always dedicated.'",
+            "personOne": "- Oscar Cole, Senior Web Designer at Schinner-Lemke"
+        },
