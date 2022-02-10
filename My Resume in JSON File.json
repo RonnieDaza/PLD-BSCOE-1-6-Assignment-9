@@ -24,3 +24,11 @@
             "statementTwo": "'We are happy that we had Ronnie on our team.'",
             "personTwo": "- Ben Lane, CEO at McClure"
         },
+    "myFirstWorkExperience": {
+            "blankFive": " ",
+            "sectionFour": "Work Experience:",
+            "companyOne": "Company: Schinner-Lemke",
+            "positionOne": "Position: Web Designer",
+            "startDateOne": "Start Date: 2016-09-17",
+            "endDateOne": "End Date: 2019-03-15"
+        },
