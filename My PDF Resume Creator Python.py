@@ -19,3 +19,5 @@ readJsonFile = json.loads(openJsonFile.read())
 pdf = FPDF()
 # 5. Add a page.
 pdf.add_page()
+# 6. Specify the font family and size.
+pdf.set_font("Helvetica", size = 15)
