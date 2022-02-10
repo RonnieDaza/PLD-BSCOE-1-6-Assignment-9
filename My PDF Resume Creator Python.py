@@ -9,3 +9,5 @@
 # 1. Import the module json and FPDF.
 import json
 from fpdf import FPDF
+# 2. Open the JSON file.
+openJsonFile = open("My Resume.json")
