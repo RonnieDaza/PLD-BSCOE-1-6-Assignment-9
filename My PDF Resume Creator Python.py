@@ -9,6 +9,7 @@
 # 1. Import the module json and FPDF.
 import json
 from fpdf import FPDF
+
 # 2. Open the JSON file.
 openJsonFile = open("My Resume.json")
 # 3. Read the JSON file and convert the JSON String document into the Python dictionary.
@@ -16,3 +17,5 @@ readJsonFile = json.loads(openJsonFile.read())
 
 # 4. Create the FPDF object.
 pdf = FPDF()
+# 5. Add a page.
+pdf.add_page()
