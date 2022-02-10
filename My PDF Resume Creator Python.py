@@ -62,3 +62,10 @@ pdf.multi_cell(190, 7, txt = readJsonFile["mySecondWorkExperience"]["companyTwo"
 pdf.multi_cell(190, 7, txt = readJsonFile["mySecondWorkExperience"]["positionTwo"], ln = True)
 pdf.multi_cell(190, 7, txt = readJsonFile["mySecondWorkExperience"]["startDateTwo"], ln = True)
 pdf.multi_cell(190, 7, txt = readJsonFile["mySecondWorkExperience"]["endDateTwo"], ln = True)
+
+# myInterests
+pdf.multi_cell(190, 7, txt = readJsonFile["myInterests"]["blankSeven"], ln = True)
+pdf.multi_cell(190, 7, txt = readJsonFile["myInterests"]["sectionFive"], ln = True)
+pdf.multi_cell(190, 7, txt = readJsonFile["myInterests"]["interestOne"], ln = True)
+pdf.multi_cell(190, 7, txt = readJsonFile["myInterests"]["interestTwo"], ln = True)
+pdf.multi_cell(190, 7, txt = readJsonFile["myInterests"]["interestThree"], ln = True)
