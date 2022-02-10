@@ -21,3 +21,11 @@ pdf = FPDF()
 pdf.add_page()
 # 6. Specify the font family and size.
 pdf.set_font("Helvetica", size = 15)
+
+# 7. Specify the width and height, add every text, indicate the Python dictionary keyword, and move down the next line after the cell is complete.
+# myInfo
+pdf.multi_cell(190, 7, txt = readJsonFile["myInfo"]["myName"], ln = True)
+pdf.multi_cell(190, 7, txt = readJsonFile["myInfo"]["myPosition"], ln = True)
+pdf.multi_cell(190, 7, txt = readJsonFile["myInfo"]["myBio"], ln = True)
+pdf.multi_cell(190, 7, txt = readJsonFile["myInfo"]["myEmail"], ln = True)
+pdf.multi_cell(190, 7, txt = readJsonFile["myInfo"]["myLocation"], ln = True)
