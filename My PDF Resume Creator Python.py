@@ -11,3 +11,5 @@ import json
 from fpdf import FPDF
 # 2. Open the JSON file.
 openJsonFile = open("My Resume.json")
+# 3. Read the JSON file and convert the JSON String document into the Python dictionary.
+readJsonFile = json.loads(openJsonFile.read())
