@@ -6,3 +6,10 @@
             "myEmail": "Email: oceannman050199@gmail.com",
             "myLocation": "Location: Los Angeles, California"
         },
+    "myAcademicBackground": {
+            "blankTwo": " ",
+            "sectionTwo": "Academic Background:",
+            "myUniversity": "University: University of Southern California",
+            "myDegree": "Degree: Bachelor of Science in Computer Science",
+            "theYears": "Year Graduated: 2015"
+        },
