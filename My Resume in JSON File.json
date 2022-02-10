@@ -39,3 +39,11 @@
             "startDateTwo": "Start Date: 2019-08-23",
             "endDateTwo": "End Date: 2021-08-31"
         },
+    "myInterests": {
+            "blankSeven": " ",
+            "sectionFive": "Interests:",
+            "interestOne": "- Fix bugs found on the websites I handle.",
+            "interestTwo": "- Create websites that catch the eyes of users.",
+            "interestThree": "- Improve the functionality of the websites I manage."
+        }
+}
